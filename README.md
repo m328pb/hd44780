@@ -21,7 +21,8 @@ Data:          2 bytes
 
 ## usage
 
-Just set isplay size (lines and columns). Library implemented with class LCD():
+Just set display size (lines and columns). You can also set I2C address and speed
+in header file. Library implemented with class LCD():
 
 - LCD::&get() - return communication protocol object
 - LCD::clear(); - clear display
