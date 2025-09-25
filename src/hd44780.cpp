@@ -3,7 +3,7 @@
 LCD::LCD() : comm(), x(0), y(0) { initialize(); }
 
 void LCD::initialize() {
-  comm.init(PCF8574_I2C_ADDRESS, 200);
+  comm.init(PCF8574_I2C_ADDRESS, I2C_SPEED);
   comm.send(0x00); // make sure EN is low (disabled)
   // proper power-up can not be guaranteed so
   // initializing by instruction (p.46 HD4780U datasheet)
