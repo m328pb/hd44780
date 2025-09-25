@@ -4,8 +4,8 @@ Library for LCD on hd44780 with I2C interface.
 Assumption is to minimaze memory footprint with only basic
 text display.
 
-Inspiration come from fact that Adafruit_SSD1306 with
-Arduino library takes ~2708 bytes
+Inspiration come from fact that Arduino library with 
+typical LCD lib takes ~2708 bytes
 
 ```bash
 AVR Memory Usage
