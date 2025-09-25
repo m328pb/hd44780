@@ -13,7 +13,7 @@ void LCD::initialize() {
   send1byte(0, 0b11); // 8bit interface, lower bits are zero
   _delay_us(120);
   send1byte(0, 0b11); // 8bit interface, lower bits are zero
-  send1byte(0, 0b10); // we should be in initialized now with 4 bits
+  send1byte(0, 0b10); // we should be initialized now with 4 bits
 
   function_set();   // set 4 bits, and no of lines, fonts 5x8
   display(0b100);   // display on, cursor off, blinking off
