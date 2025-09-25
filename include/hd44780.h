@@ -3,6 +3,7 @@
 #include <util/delay.h>
 
 #define PCF8574_I2C_ADDRESS 0x27 // I2C driver address
+#define I2C_SPEED 200 // protocol speed (200kHz)
 
 #define NO_LINES 2    // number of lines on LCD
 #define NO_COLUMNS 16 // number of columns
