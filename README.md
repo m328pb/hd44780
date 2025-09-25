@@ -23,10 +23,10 @@ Data:          2 bytes
 
 Just set isplay size (lines and columns). Library implemented with class LCD():
 
-- I2C::&get() - return communication protocol object
-- I2C::clear(); - clear display
-- I2C::setPos(uint8_t x, uint8_t y); - set cursor position
-- I2C::println(const char *str); - print txt without moving the
+- LCD::&get() - return communication protocol object
+- LCD::clear(); - clear display
+- LCD::setPos(uint8_t x, uint8_t y); - set cursor position
+- LCD::println(const char *str); - print txt without moving the
 cursor, so next print will overwrite
-- I2C::print(const char *str); - print and move cursor
-- I2C::off(); - display off
+- LCD::print(const char *str); - print and move cursor
+- LCD::off(); - display off
