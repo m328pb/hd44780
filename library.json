@@ -1,0 +1,24 @@
+{
+	"name": "hd44780",
+	"version": "0.9.0",
+	"description": "interface for LCD display based on HD44780 chip with I2C interface",
+	"keywords": "LCD, hd44780, display, arduino, atmega328",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/m328pb/hd44780"
+	},
+	"authors":{
+		"name":"Michal Zielaskowski",
+		"email":"michal.zielaskowski@gmail.com"
+	},
+	"license":"GPL-3.0 license",
+	"frameworks":"arduino",
+	"platforms":"atmelvar",
+	"dependencies":{
+		"external-repo":"https://github.com/m328pb/i2c",
+		"external-repo":"https://github.com/m328pb/strings"
+	},
+	"examples":[
+		"examples/*/*.c"
+	]
+}
