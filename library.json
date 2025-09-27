@@ -11,13 +11,19 @@
 		"name":"Michal Zielaskowski",
 		"email":"michal.zielaskowski@gmail.com"
 	},
-	"license":"GPL-3.0 license",
+	"license":"GPL-3.0",
 	"frameworks":"arduino",
 	"platforms":"atmelvar",
-	"dependencies":{
-		"external-repo":"https://github.com/m328pb/i2c",
-		"external-repo":"https://github.com/m328pb/strings"
-	},
+	"dependencies":[
+		{
+			"name": "I2C",
+			"url": "https://github.com/m328pb/i2c"
+		},
+		{
+			"name": "strings",
+			"url": "https://github.com/m328pb/strings"
+		}
+	],
 	"examples":[
 		"examples/*/*.c"
 	]
